@@ -4,7 +4,8 @@
   "description": "This is a really basic example of how you get search-index to work in a node.js application",
   "main": "main.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node lib/run.js",
+    "test": "rm -rf testindex && mocha"
   },
   "dependencies": {
     "search-index": "0.6.8",
