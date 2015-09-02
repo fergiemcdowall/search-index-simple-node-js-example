@@ -1,0 +1,34 @@
+{
+  "name": "search-index-simple-node-js-example",
+  "version": "0.0.1",
+  "description": "This is a really basic example of how you get search-index to work in a node.js application",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "search-index": "0.6.8",
+    "reuters-21578-json": "0.0.6"
+  },
+  "devDependencies": {
+    "mocha": "2.2.5",
+    "should": "7.0.1"
+  },
+  "author": {
+    "email": "fergusmcdowall@gmail.com",
+    "name": "Fergus McDowall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fergiemcdowall/search-index-simple-node-js-example.git"
+  },
+  "keywords": [
+    "search-index",
+    "example"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fergiemcdowall/search-index-simple-node-js-example/issues"
+  },
+  "homepage": "https://github.com/fergiemcdowall/search-index-simple-node-js-example"
+}
