@@ -1,6 +1,6 @@
 {
   "name": "search-index-simple-node-js-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a really basic example of how you get search-index to work in a node.js application",
   "main": "main.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "rm -rf testindex && mocha"
   },
   "dependencies": {
-    "search-index": "0.6.8",
+    "search-index": "0.8.10",
     "reuters-21578-json": "0.0.6"
   },
   "devDependencies": {
